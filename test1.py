@@ -1,7 +1,8 @@
 import streamlit as st
-st.write("hello")
-st.balloons() # Celebration balloons
-st.progress(10) # Progress bar
-import time
-with st.spinner('Wait for it...'):
-time.sleep(10) # Simulating a process delay
+st.title("This is the app title")
+st.header("This is the header")
+st.markdown("This is the markdown")
+st.subheader("This is the subheader")
+st.caption("This is the caption")
+st.code("x = 2021")
+st.latex(r''' a+a r^1+a r^2+a r^3 ''')
