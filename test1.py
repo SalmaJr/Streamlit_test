@@ -10,6 +10,6 @@ app_type = st.sidebar.selectbox('Select APP Type', ['--- Select a type ---', 'Im
 
 match app_type:
     case 'Image analysis':
-         image_file = st.file_uploader()
+         image_file = st.file_uploader('upload a photo')
     case _:
         print("pls choose")
